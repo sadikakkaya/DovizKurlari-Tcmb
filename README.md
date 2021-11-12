@@ -1,3 +1,4 @@
+//Class Program
 namespace WindowsConsoleDoviz
 {
     public class Program
@@ -95,3 +96,19 @@ namespace WindowsConsoleDoviz
         }
     }
 }
+
+//App.config//
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+  <appSettings>
+    <add key="CalismaSuresi" value="5000"/>
+    <add key="KurMaileri" value="a@gmail.com,b@gmail.com"/>
+    <add key="GondericiBaslik" value="Günlük Döviz Kurları"/>
+    <add key="GondericiMailKullaniciAdi" value="gonder@XXX.COM"/>
+    <add key="GondericiMailSifre" value="XXXXX"/>
+    <add key="MailServerPort" value="587"/>
+    <add key="MailServerSmtp" value="smtp.yandex.ru"/>
+  </appSettings>
+</configuration>
